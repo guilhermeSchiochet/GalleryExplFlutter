@@ -1,0 +1,42 @@
+name: gallery_expl
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  photo_view: ^0.14.0
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/pdfs/
+
+  fonts:
+    - family: Butler
+      fonts:
+        - asset: assets/fonts/Butler_Bold.ttf
+        - asset: assets/fonts/Butler_Light.ttf
+        - asset: assets/fonts/Butler_Regular.ttf
+
+    - family: IBM
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
